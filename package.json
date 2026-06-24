@@ -4,7 +4,7 @@
   "description": "CLI de scaffolding para Spec-Driven Development + Open Knowledge Format (OKF), compartilhando contexto .md/.yaml entre Claude, Codex, Cursor, Gemini, Copilot e Windsurf.",
   "type": "module",
   "bin": {
-    "spec-okf": "./dist/cli.js"
+    "spec-okf": "dist/cli.js"
   },
   "files": [
     "dist",
