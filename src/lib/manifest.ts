@@ -36,7 +36,7 @@ export async function writeManifest(
   const p = manifestPath(projectDir);
   await mkdir(dirname(p), { recursive: true });
   const manifest: Manifest = {
-    generator: "@giossaurus/spec-okf",
+    generator: "@solnyechniygio/spec-okf",
     version: data.version,
     agents: data.agents,
     updatedAt: now,
