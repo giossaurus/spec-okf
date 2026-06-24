@@ -1,4 +1,4 @@
-# @solnyechniygio/spec-okf
+# spec-okf
 
 CLI de scaffolding que configura um projeto com **Spec-Driven Development (SDD)**
 e um bundle **Open Knowledge Format (OKF)** — compartilhando o mesmo contexto
@@ -12,16 +12,16 @@ bundle de conhecimento em `knowledge/`.
 
 ```bash
 # interativo (escolhe os agentes num menu)
-npx @solnyechniygio/spec-okf init
+npx spec-okf init
 
 # em um diretório específico, com todos os agentes
-npx @solnyechniygio/spec-okf init meu-projeto --all
+npx spec-okf init meu-projeto --all
 
 # agentes específicos, não-interativo
-npx @solnyechniygio/spec-okf init . --agent=claude,codex,cursor --yes
+npx spec-okf init . --agent=claude,codex,cursor --yes
 
 # atualizar a "maquinaria" preservando specs/, docs/ e knowledge/
-npx @solnyechniygio/spec-okf update
+npx spec-okf update
 ```
 
 ### Flags do `init`

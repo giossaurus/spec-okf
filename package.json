@@ -1,5 +1,5 @@
 {
-  "name": "@solnyechniygio/spec-okf",
+  "name": "spec-okf",
   "version": "0.1.0",
   "description": "CLI de scaffolding para Spec-Driven Development + Open Knowledge Format (OKF), compartilhando contexto .md/.yaml entre Claude, Codex, Cursor, Gemini, Copilot e Windsurf.",
   "type": "module",
