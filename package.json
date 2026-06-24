@@ -1,0 +1,48 @@
+{
+  "name": "@giossaurus/spec-okf",
+  "version": "0.1.0",
+  "description": "CLI de scaffolding para Spec-Driven Development + Open Knowledge Format (OKF), compartilhando contexto .md/.yaml entre Claude, Codex, Cursor, Gemini, Copilot e Windsurf.",
+  "type": "module",
+  "bin": {
+    "spec-okf": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "templates"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "tsup"
+  },
+  "keywords": [
+    "spec-driven",
+    "spec-driven-development",
+    "sdd",
+    "okf",
+    "open-knowledge-format",
+    "scaffolding",
+    "claude",
+    "codex",
+    "cursor",
+    "ai-agents"
+  ],
+  "author": "Giovanni Della Dea",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "commander": "^12.1.0",
+    "picocolors": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.5.0"
+  }
+}

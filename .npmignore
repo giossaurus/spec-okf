@@ -1,0 +1,9 @@
+# O campo "files" do package.json já define o que é publicado (dist, templates).
+# Este arquivo é uma rede de segurança extra.
+src
+tsconfig.json
+tsup.config.ts
+.github
+.vscode
+*.log
+.DS_Store
