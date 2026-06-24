@@ -32,6 +32,15 @@
   ],
   "author": "Giovanni Della Dea",
   "license": "MIT",
+  "packageManager": "pnpm@11.4.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giossaurus/spec-okf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/giossaurus/spec-okf/issues"
+  },
+  "homepage": "https://github.com/giossaurus/spec-okf#readme",
   "publishConfig": {
     "access": "public"
   },
